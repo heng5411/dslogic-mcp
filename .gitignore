@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+# capture outputs
+*.dsl
+*.sr
+*.vcd
+*.csv
+*.npz
+# DreamSourceLab FPGA bitstreams: get them from DSView, never commit them
+dslogic/res/*.bin
